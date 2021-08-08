@@ -5,30 +5,12 @@
       "type": "motoko"
     },
     "morpion_assets": {
-      "dependencies": [
-        "morpion"
-      ],
+      "dependencies": ["morpion"],
       "frontend": {
         "entrypoint": "src/morpion_assets/src/index.html"
       },
-      "source": [
-        "src/morpion_assets/assets",
-        "dist/morpion_assets/"
-      ],
+      "source": ["src/morpion_assets/assets", "dist/morpion_assets/"],
       "type": "assets"
     }
-  },
-  "defaults": {
-    "build": {
-      "packtool": ""
-    }
-  },
-  "dfx": "0.7.0-beta.2",
-  "networks": {
-    "local": {
-      "bind": "127.0.0.1:8000",
-      "type": "ephemeral"
-    }
-  },
-  "version": 1
+  }
 }

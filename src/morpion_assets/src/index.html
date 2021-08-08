@@ -1,20 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>morpion</title>
-    <base href="/">
-
     <link type="text/css" rel="stylesheet" href="main.css" />
-</head>
-<body>
-    <img src="logo.png" alt="DFINITY logo" />
-    <section>
-        <label for="name">Enter your name: &nbsp;</label>
-        <input id="name" alt="Name" type="text" />
-        <button id="clickMeBtn">Click Me!</button>
-    </section>
-    <section id="greeting"></section>
-</body>
+  </head>
+  <body>
+    <h1>Tic-Tac-Toe</h1>
+    <div class="container">
+      <div class="cell" data-index="0" clicked="false"></div>
+      <div class="cell" data-index="1" clicked="false"></div>
+      <div class="cell" data-index="2" clicked="false"></div>
+      <div class="cell" data-index="3" clicked="false"></div>
+      <div class="cell" data-index="4" clicked="false"></div>
+      <div class="cell" data-index="5" clicked="false"></div>
+      <div class="cell" data-index="6" clicked="false"></div>
+      <div class="cell" data-index="7" clicked="false"></div>
+      <div class="cell" data-index="8" clicked="false"></div>
+    </div>
+    <h2 class="infos1"></h2>
+    <h2 class="infos2"></h2>
+
+    <!-- <button id="alone"> Click here if it takes too long  </button> -->
+  </body>
 </html>
